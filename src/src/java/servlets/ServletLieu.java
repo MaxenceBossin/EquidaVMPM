@@ -19,9 +19,9 @@ import modele.Utilisateur;
  */
 public class ServletLieu extends ServletBase {
 	
-	private static final String URL_AJOUTER_LIEU = "/EquidaWebG2/ServletLieu/ajouterLieu";
-	private static final String URL_LISTER_LIEU = "/EquidaWebG2/ServletLieu/lieuLister";
-	private static final String URL_MODIFIER_LIEU = "/EquidaWebG2/ServletLieu/lieuModifier";
+	private static final String URL_AJOUTER_LIEU = "/EquidaVMPM/ServletLieu/ajouterLieu";
+	private static final String URL_LISTER_LIEU = "/EquidaVMPM/ServletLieu/lieuLister";
+	private static final String URL_MODIFIER_LIEU = "/EquidaVMPM/ServletLieu/lieuModifier";
 	
 	Connection connection;
 

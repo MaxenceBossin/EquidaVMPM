@@ -19,9 +19,9 @@ import modele.Utilisateur;
  */
 public class ServletCategVente extends ServletBase {
 	
-	public static final String URL_AJOUTER_CATEG_VENTE = "/EquidaWebG2/ServletCategVente/categorieVenteAjouter";
-	public static final String URL_LISTER_CATEG_VENTE = "/EquidaWebG2/ServletCategVente/listerLesCategVentes";
-	public static final String URL_MODIFIER_CATEG_VENTE = "/EquidaWebG2/ServletCategVente/categorieVenteModifier";
+	public static final String URL_AJOUTER_CATEG_VENTE = "/EquidaVMPM/ServletCategVente/categorieVenteAjouter";
+	public static final String URL_LISTER_CATEG_VENTE = "/EquidaVMPM/ServletCategVente/listerLesCategVentes";
+	public static final String URL_MODIFIER_CATEG_VENTE = "/EquidaVMPM/ServletCategVente/categorieVenteModifier";
 	
 	Connection connection;
 

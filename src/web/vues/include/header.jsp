@@ -42,11 +42,11 @@
                                                                 //Si l'utilisateur n'est pas connecté on affiche le lien de connexion sinon, on affiche celui de la déconnexion
                                                                 if (user == null) {
                             %>
-                            <li><a href="/EquidaWebG2/ServletAuthentification/connexion"><i class="material-icons">account_circle</i></a></li>
+                            <li><a href="/EquidaVMPM/ServletAuthentification/connexion"><i class="material-icons">account_circle</i></a></li>
                                 <%
                                                                 } else {
                                 %>
-                            <li><a href="/EquidaWebG2/ServletAuthentification/deconnexion"><i class="material-icons">exit_to_app</i></a></li>
+                            <li><a href="/EquidaVMPM/ServletAuthentification/deconnexion"><i class="material-icons">exit_to_app</i></a></li>
 
                             <%
                                                                 }

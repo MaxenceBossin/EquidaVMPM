@@ -35,7 +35,7 @@ public abstract class ServletBase extends HttpServlet {
 
 	public void redirigerVersAcceuil(HttpServletResponse response) {
 		try {
-			response.sendRedirect("/EquidaWebG2");
+			response.sendRedirect("/EquidaVMPM");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

@@ -26,12 +26,12 @@ import modele.Utilisateur;
  */
 public class ServletClient extends ServletBase {
 
-	public static final String URL_AJOUTER_CLIENT = "/EquidaWebG2/ServletClient/ajouterClient";
-	public static final String URL_LISTER_CLIENTS = "/EquidaWebG2/ServletClient/listerLesClients";
-	public static final String URL_CONSULTER_CLIENT = "/EquidaWebG2/ServletClient/clientConsulter";
-	public static final String URL_LISTER_CLIENTS_DIR_GEN = "/EquidaWebG2/ServletClient/listerLesClientsPrDirGen";
-	public static final String URL_MODIFIER_CLIENT = "/EquidaWebG2/ServletClient/clientModifier";
-	public static final String URL_ARCHIVER_CLIENT = "/EquidaWebG2/ServletClient/clientArchiver";
+	public static final String URL_AJOUTER_CLIENT = "/EquidaVMPM/ServletClient/ajouterClient";
+	public static final String URL_LISTER_CLIENTS = "/EquidaVMPM/ServletClient/listerLesClients";
+	public static final String URL_CONSULTER_CLIENT = "/EquidaVMPM/ServletClient/clientConsulter";
+	public static final String URL_LISTER_CLIENTS_DIR_GEN = "/EquidaVMPM/ServletClient/listerLesClientsPrDirGen";
+	public static final String URL_MODIFIER_CLIENT = "/EquidaVMPM/ServletClient/clientModifier";
+	public static final String URL_ARCHIVER_CLIENT = "/EquidaVMPM/ServletClient/clientArchiver";
 	
 	
 	Connection connection;

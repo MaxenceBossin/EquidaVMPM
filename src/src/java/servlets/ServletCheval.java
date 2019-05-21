@@ -29,12 +29,12 @@ import modele.Utilisateur;
  */
 public class ServletCheval extends ServletBase {
 
-	public static final String URL_AJOUTER_CHEVAL = "/EquidaWebG2/ServletCheval/ajouterCheval";
-	public static final String URL_CONSULTER_CHEVAL = "/EquidaWebG2/ServletCheval/consulterCheval";
-	public static final String URL_MODIFIER_CHEVAL = "/EquidaWebG2/ServletCheval/chevalModifier";
-	public static final String URL_ARCHIVER_CHEVAL = "/EquidaWebG2/ServletCheval/chevalArchiver";
-	public static final String URL_LISTER_LOTS = "/EquidaWebG2/ServletLot/listerLesLots";
-	public static final String URL_VALIDER_CHEVAL = "/EquidaWebG2/ServletCheval/chevalValider";
+	public static final String URL_AJOUTER_CHEVAL = "/EquidaVMPM/ServletCheval/ajouterCheval";
+	public static final String URL_CONSULTER_CHEVAL = "/EquidaVMPM/ServletCheval/consulterCheval";
+	public static final String URL_MODIFIER_CHEVAL = "/EquidaVMPM/ServletCheval/chevalModifier";
+	public static final String URL_ARCHIVER_CHEVAL = "/EquidaVMPM/ServletCheval/chevalArchiver";
+	public static final String URL_LISTER_LOTS = "/EquidaVMPM/ServletLot/listerLesLots";
+	public static final String URL_VALIDER_CHEVAL = "/EquidaVMPM/ServletCheval/chevalValider";
 
 	Connection connection;
 

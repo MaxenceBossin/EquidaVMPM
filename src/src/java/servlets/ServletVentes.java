@@ -30,10 +30,10 @@ import modele.Vente;
  */
 public class ServletVentes extends ServletBase {
 
-	public static final String URL_LISTER_VENTES = "/EquidaWebG2/ServletVentes/listerLesVentes";
-	public static final String URL_AJOUTER_VENTE = "/EquidaWebG2/ServletVentes/venteAjouter";
-	public static final String URL_CONSULTER_VENTE = "/EquidaWebG2/ServletVentes/venteConsulter";
-	public static final String URL_MODIFIER_VENTE = "/EquidaWebG2/ServletVentes/venteModifier";
+	public static final String URL_LISTER_VENTES = "/EquidaVMPM/ServletVentes/listerLesVentes";
+	public static final String URL_AJOUTER_VENTE = "/EquidaVMPM/ServletVentes/venteAjouter";
+	public static final String URL_CONSULTER_VENTE = "/EquidaVMPM/ServletVentes/venteConsulter";
+	public static final String URL_MODIFIER_VENTE = "/EquidaVMPM/ServletVentes/venteModifier";
 	
 	
 	Connection connection;

@@ -21,9 +21,9 @@ import modele.Utilisateur;
  */
 public class ServletTypeCheval extends ServletBase {
     
-	public static final String URL_AJOUTER_TYPE_CHEVAL = "/EquidaWebG2/ServletTypeCheval/typeChevalAjouter";
-	public static final String URL_LISTER_TYPE_CHEVAL = "/EquidaWebG2/ServletTypeCheval/listerLesTypeCheval";
-	public static final String URL_MODIFIER_TYPE_CHEVAL = "/EquidaWebG2/ServletTypeCheval/typeChevalModifier";
+	public static final String URL_AJOUTER_TYPE_CHEVAL = "/EquidaVMPM/ServletTypeCheval/typeChevalAjouter";
+	public static final String URL_LISTER_TYPE_CHEVAL = "/EquidaVMPM/ServletTypeCheval/listerLesTypeCheval";
+	public static final String URL_MODIFIER_TYPE_CHEVAL = "/EquidaVMPM/ServletTypeCheval/typeChevalModifier";
 	
     Connection connection ;
     

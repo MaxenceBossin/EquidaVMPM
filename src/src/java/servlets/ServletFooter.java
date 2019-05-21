@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class ServletFooter extends ServletBase {
 
-	private static final String URL_MENTIONS_LEGALES = "/EquidaWebG2/ServletFooter/mentions_legales";
-	private static final String URL_QUI_SOMMES_NOUS = "/EquidaWebG2/ServletFooter/qui_sommes_nous";
-	private static final String URL_CONTACT = "/EquidaWebG2/ServletFooter/contact";
+	private static final String URL_MENTIONS_LEGALES = "/EquidaVMPM/ServletFooter/mentions_legales";
+	private static final String URL_QUI_SOMMES_NOUS = "/EquidaVMPM/ServletFooter/qui_sommes_nous";
+	private static final String URL_CONTACT = "/EquidaVMPM/ServletFooter/contact";
 	
 	Connection connection;
 

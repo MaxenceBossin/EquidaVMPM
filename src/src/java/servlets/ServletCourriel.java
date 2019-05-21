@@ -26,8 +26,8 @@ import outils.EnvoieMail;
 @MultipartConfig
 public class ServletCourriel extends ServletBase {
 
-	public static final String URL_LISTER_COURIELS = "/EquidaWebG2/ServletCourriel/listerLesCourriels";
-	public static final String URL_AJOUTER_COURIEL = "/EquidaWebG2/ServletCourriel/ajouterCourriel";
+	public static final String URL_LISTER_COURIELS = "/EquidaVMPM/ServletCourriel/listerLesCourriels";
+	public static final String URL_AJOUTER_COURIEL = "/EquidaVMPM/ServletCourriel/ajouterCourriel";
 	
 	Connection connection;
 

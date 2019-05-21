@@ -19,9 +19,9 @@ import modele.Utilisateur;
  */
 public class ServletPays extends ServletBase {
 
-	public static final String URL_AJOUTER_PAYS = "/EquidaWebG2/ServletPays/paysAjouter";
-	public static final String URL_MODIFIER_PAYS = "/EquidaWebG2/ServletPays/paysModifier";
-	public static final String URL_LISTER_PAYS = "/EquidaWebG2/ServletPays/listerLesPays";
+	public static final String URL_AJOUTER_PAYS = "/EquidaVMPM/ServletPays/paysAjouter";
+	public static final String URL_MODIFIER_PAYS = "/EquidaVMPM/ServletPays/paysModifier";
+	public static final String URL_LISTER_PAYS = "/EquidaVMPM/ServletPays/listerLesPays";
 	
 	Connection connection;
 

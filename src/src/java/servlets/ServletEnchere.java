@@ -19,7 +19,7 @@ import modele.Vente;
  */
 public class ServletEnchere extends ServletBase {
 
-	public static final String URL_AJOUTER_ENCHERE = "/EquidaWebG2/ServletEnchere/ajouterEnchere";
+	public static final String URL_AJOUTER_ENCHERE = "/EquidaVMPM/ServletEnchere/ajouterEnchere";
 	
 	Connection connection;
 

@@ -15,8 +15,8 @@ import modele.Utilisateur;
 
 public class ServletAuthentification extends ServletBase {
 
-	public static final String URL_CONNEXION = "/EquidaWebG2/ServletAuthentification/connexion";
-	public static final String URL_DECONNEXION = "/EquidaWebG2/ServletAuthentification/deconnexion";
+	public static final String URL_CONNEXION = "/EquidaVMPM/ServletAuthentification/connexion";
+	public static final String URL_DECONNEXION = "/EquidaVMPM/ServletAuthentification/deconnexion";
 
 	Connection connection;
 
