@@ -23,9 +23,9 @@
 
 <div class="row">
 	<div class="col s12 carousel carousel-slider">
-		<a class="carousel-item" href="#one!"><img class="responsive-img" src="<%=request.getContextPath()%>/img/1.jpg"></a>
-		<a class="carousel-item" href="#two!"><img class="responsive-img" src="<%=request.getContextPath()%>/img/2.jpg"></a>
-		<a class="carousel-item" href="#three!"><img class="responsive-img" src="<%=request.getContextPath()%>/img/3.jpg"></a>
+		<a class="carousel-item" href="#one!"><img class="responsive-img" src="<%=request.getContextPath()%>/img/main.jpg"></a>
+		<a class="carousel-item" href="#two!"><img class="responsive-img" src="<%=request.getContextPath()%>/img/main2.jpg"></a>
+		<a class="carousel-item" href="#three!"><img class="responsive-img" src="<%=request.getContextPath()%>/img/main3.jpg"></a>
 	</div>
 </div>
 
